@@ -21,7 +21,7 @@ public class hw01 {
 		int s = 256559;
 		int days = s / (24 * 60 * 60);// 2天
 		int hours = s % (24 * 60 * 60) / (60 * 60);// 23小時
-		int min = s % (24 * 60 * 60) % (60 * 60) / (60);// 15秒
+		int min = s % (24 * 60 * 60) % (60 * 60) / (60);// 15分
 		int sc = s % (24 * 60 * 60) % (60 * 60) % (60);
 		System.out.println(days + "天" + hours + "時" + min + "分" + sc + "秒");
 
