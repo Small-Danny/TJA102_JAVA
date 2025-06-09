@@ -45,12 +45,12 @@ public class hw1_0605 {
 //		System.out.print("元");
 //		System.out.println("");
 //• 請寫一隻程式,利用System.out.println()印出以下三個運算式結果:
-	//5 + 5
-	//5 + ‘5’
-	//5 + “5”
+		// 5 + 5
+		// 5 + ‘5’
+		// 5 + “5”
 //並請用註解各別說明答案的產生原因
 		System.out.println(5 + 5); // 10，純數字相加
-		System.out.println(5+ '5');// 58,數字加上字元'5' asc表轉換
-		System.out.println(5+ "5");// 55,數字加上字串拼接
+		System.out.println(5 + '5');// 58,數字加上字元'5' asc表轉換
+		System.out.println(5 + "5");// 55,數字加上字串拼接
 	}
 }
