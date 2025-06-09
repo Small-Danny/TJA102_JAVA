@@ -7,7 +7,7 @@ public class hw1_0605 {
 //		System.out.println("12+6=" + (a + b));
 //		System.out.println("12*6=" + a * b);
 		System.out.println("12+6=" + (12 + 6));
-		System.out.println("12*6=" + 	12 * 6);
+		System.out.println("12*6=" + 12 * 6);
 //• 請設計一隻Java程式,計算200顆蛋共是幾打幾顆? (一打為12顆)
 		int egg = 200;
 		int dozen = egg / 12;
