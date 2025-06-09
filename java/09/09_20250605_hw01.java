@@ -3,9 +3,11 @@ package hw1;
 public class hw1_0605 {
 	public static void main(String[] args) {
 // 請設計一隻Java程式,計算12,6這兩個數值的和與積
-		int a = 12, b = 6;
-		System.out.println("12+6=" + (a + b));
-		System.out.println("12*6=" + a * b);
+//		int a = 12, b = 6;
+//		System.out.println("12+6=" + (a + b));
+//		System.out.println("12*6=" + a * b);
+		System.out.println("12+6=" + (12 + 6));
+		System.out.println("12*6=" + 	12 * 6);
 //• 請設計一隻Java程式,計算200顆蛋共是幾打幾顆? (一打為12顆)
 		int egg = 200;
 		int dozen = egg / 12;
@@ -47,11 +49,8 @@ public class hw1_0605 {
 	//5 + ‘5’
 	//5 + “5”
 //並請用註解各別說明答案的產生原因
-		int c = 5;
-		char d = '5';
-		String e = "5";
-		System.out.println(c + c); // 10，純數字相加
-		System.out.println(c + d);// 58,數字加上字元'5' asc表轉換
-		System.out.println(c + e);// 55,數字加上字串拼接
+		System.out.println(5 + 5); // 10，純數字相加
+		System.out.println(5+ '5');// 58,數字加上字元'5' asc表轉換
+		System.out.println(5+ "5");// 55,數字加上字串拼接
 	}
 }
