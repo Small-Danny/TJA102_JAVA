@@ -44,6 +44,11 @@ public class hw1_0605 {
 //		System.out.printf("本金加利息="+"%.0f", fv);
 //		System.out.print("元");
 //		System.out.println("");
+		double money = 1500000;
+		for (int i = 1; i <= 10; i++) {
+			money = money + (money * 0.02);
+		}
+		System.out.println("本金加利息=" + money + "元");		
 //• 請寫一隻程式,利用System.out.println()印出以下三個運算式結果:
 		// 5 + 5
 		// 5 + ‘5’
