@@ -9,7 +9,7 @@ CREATE TABLE practice_constraints (
 	FOREIGN key(class_id) REFERENCES class_info (class_id)
 );
 
-CREATE TRIGGER trg_set_email_before_insert
+CREATE TRIGGER email_constraints
 BEFORE INSERT ON practice_constraints
 FOR EACH ROW
 BEGIN
